@@ -1,0 +1,145 @@
+/* Body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1.title {
+    font-size: 36px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+h3.desc {
+    font-size: 18px;
+    margin-top: 60px;
+    position: absolute;
+    color: #C6AE8C;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+nav#navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#navigation ul li {
+    margin-right: 20px;
+}
+
+nav#navigation ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav#navigation ul li a:hover {
+    color: #eee;
+}
+
+/* Contents */
+#contents {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#output {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sel {
+    width: 100%;
+    padding: 0px;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    outline: none;
+    background-color: transparent;
+}
+
+.sel:focus {
+    border-bottom: 2px solid #C6AE8C;
+}
+
+.sel option {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+}
+
+.add {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+footer {
+    background-color: #eee;
+    color: #555;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

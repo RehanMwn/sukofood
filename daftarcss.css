@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 0;
+  zoom: 0.75;
+}
+
+.container {
+  width: 500px;
+  margin: -15px auto;
+  padding-top: 50px;
+  top : 50%;
+  left : 50%;
+}
+
+.login {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.input {
+  width: 95%;
+  padding: 3px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: transparent;
+  font-size: 15px;
+  color: #333;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.input:focus,
+.input:valid {
+  outline: none;
+  border-bottom-color: #4CAF50;
+}
+
+select {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("arrow.png") no-repeat right center;
+  background-size: 15px;
+}
+
+.submit{
+  width: 96%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.checkbox-label input {
+  margin-right: 5px;
+}
+
+.ah {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #555;
+  font-size: 12px;
+}
